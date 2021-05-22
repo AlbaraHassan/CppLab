@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.17)
+project(C___apps)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(calculator calculator.cpp)
+add_executable(calendar calendar.cpp)
+add_executable(tenNums tenNums.cpp)
+add_executable(candidates candidates.cpp)
+add_executable(salary salary.cpp)
+add_executable(primeNums primeNums.cpp)
+add_executable(bank bank.cpp)
+add_executable(jukeBox jukeBox.cpp)
+add_executable (rekurzija1 rekurzija1.cpp)
+add_executable(rekurzia2 rekurzia2.cpp)
+add_executable(towers towers.cpp)
