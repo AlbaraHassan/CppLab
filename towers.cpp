@@ -13,7 +13,7 @@ void fun(int n, char src, char des, char pom) {
     fun(n - 1, pom, des, src);
 }
 
-
+// Main function
 int main() {
     fun(3, 'X', 'Z', 'Y');
     return 0;
